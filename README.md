@@ -1,5 +1,7 @@
 # Mensa BPB Menu Scraper
 
+[![Build Status](https://travis-ci.org/andrearota/mensa-bpb-menu-scraper.svg?branch=master)](https://travis-ci.org/andrearota/mensa-bpb-menu-scraper)
+
 Mensa BPB Menu Scraper is a Java library that fetches weekly menus from my company canteens website.
 
 At each invocation, the library download the requested HTML menu from the [BPB CV canteen website](http://www.mensabpb.it/) and parses it into a Java object using [Jsoup](http://jsoup.org/).
