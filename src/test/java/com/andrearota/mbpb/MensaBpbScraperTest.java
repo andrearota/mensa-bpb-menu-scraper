@@ -3,13 +3,11 @@ package com.andrearota.mbpb;
 import static org.junit.Assert.assertNotNull;
 
 import java.io.IOException;
-import java.util.List;
 
 import org.junit.Test;
 
 import com.andrearota.mbpb.domain.Canteen;
 import com.andrearota.mbpb.domain.WeeklyMenu;
-import com.andrearota.mbpb.domain.WorkWeekDay;
 import com.andrearota.mbpb.scraper.MensaBpbScraper;
 import com.andrearota.mbpb.scraper.MensaBpbScraperImpl;
 
