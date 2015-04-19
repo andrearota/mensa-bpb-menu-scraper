@@ -15,13 +15,13 @@ The project comes with a standard Maven POM file. To compile it, run its tests a
 ## How to use this library
 
 The usage of this library is pretty straightforward:
-
-	// Create the scraper instance
-	MensaBpbScraper scraper = new MensaBpbScraperImpl();
+```java
+// Create the scraper instance
+MensaBpbScraper scraper = new MensaBpbScraperImpl();
 	
-	// Fetch the menu for a canteen
-	WeeklyMenu menu = scraper.getMenu(Canteen.PALAZZOLO);
+// Fetch the menu for a canteen
+WeeklyMenu menu = scraper.getMenu(Canteen.PALAZZOLO);
 	
-	// Browse the menu
-	List<String> mondayFirstCourses = menu.getDailyMenus().get(WorkWeekDay.MONDAY).getFirstCourses();
-	
+// Browse the menu
+List<String> mondayFirstCourses = menu.getDailyMenus().get(WorkWeekDay.MONDAY).getFirstCourses();
+```
