@@ -1,16 +1,13 @@
 package com.andrearota.mbpb;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
 
 import java.io.IOException;
-import java.time.DayOfWeek;
 import java.util.List;
-import java.util.Map;
 
 import org.junit.Test;
 
 import com.andrearota.mbpb.domain.Canteen;
-import com.andrearota.mbpb.domain.DailyMenu;
 import com.andrearota.mbpb.domain.WeeklyMenu;
 import com.andrearota.mbpb.domain.WorkWeekDay;
 import com.andrearota.mbpb.scraper.MensaBpbScraper;
@@ -23,11 +20,6 @@ public class MensaBpbScraperTest {
 		MensaBpbScraper scraper = new MensaBpbScraperImpl();
 		WeeklyMenu menu = scraper.getMenu(Canteen.SANT_ALESSANDRO);
 		assertNotNull(menu);
-		
-		List<String> mondayFirstCourses = menu.getDailyMenus().get(WorkWeekDay.MONDAY).getFirstCourses();
-		
-		System.out.println(mondayFirstCourses);
-		
 	}
 	
 	@Test

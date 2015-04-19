@@ -15,7 +15,6 @@ import com.andrearota.mbpb.domain.WeeklyMenu;
 import com.andrearota.mbpb.domain.WorkWeekDay;
 import com.andrearota.mbpb.parser.MensaBpbParser;
 import com.andrearota.mbpb.parser.MensaBpbParserImpl;
-import com.andrearota.mbpb.parser.MenuParseException;
 
 public class MensaBpbParserTest {
 
@@ -33,8 +32,7 @@ public class MensaBpbParserTest {
 	}
 
 	@Test
-	public void testParseFirstCoursesMondaySalex() throws IOException,
-			MenuParseException {
+	public void testParseFirstCoursesMondaySalex() throws IOException {
 
 		Document doc = readWebpage("BPBCVAMenu.htm");
 		MensaBpbParser parser = new MensaBpbParserImpl();
@@ -52,8 +50,7 @@ public class MensaBpbParserTest {
 	}
 	
 	@Test
-	public void testParseSecondCoursesTuesdayPal() throws IOException,
-			MenuParseException {
+	public void testParseSecondCoursesTuesdayPal() throws IOException {
 
 		Document doc = readWebpage("BPBCVPMenu.htm");
 		MensaBpbParser parser = new MensaBpbParserImpl();
@@ -69,8 +66,7 @@ public class MensaBpbParserTest {
 	}
 	
 	@Test
-	public void testParseSideDishesThursdayPal() throws IOException,
-			MenuParseException {
+	public void testParseSideDishesThursdayPal() throws IOException {
 
 		Document doc = readWebpage("BPBCVPMenu.htm");
 		MensaBpbParser parser = new MensaBpbParserImpl();
@@ -85,8 +81,7 @@ public class MensaBpbParserTest {
 	}
 	
 	@Test
-	public void testParseSpecialDishesFridayPal() throws IOException,
-			MenuParseException {
+	public void testParseSpecialDishesFridayPal() throws IOException {
 
 		Document doc = readWebpage("BPBCVPMenu.htm");
 		MensaBpbParser parser = new MensaBpbParserImpl();
@@ -103,8 +98,7 @@ public class MensaBpbParserTest {
 	}
 	
 	@Test
-	public void testParseFirstCoursesMondayPal() throws IOException,
-			MenuParseException {
+	public void testParseFirstCoursesMondayPal() throws IOException {
 
 		Document doc = readWebpage("BPBCVPMenu.htm");
 		MensaBpbParser parser = new MensaBpbParserImpl();
@@ -122,8 +116,7 @@ public class MensaBpbParserTest {
 	}
 	
 	@Test
-	public void testParseSecondCoursesTuesdaySalex() throws IOException,
-			MenuParseException {
+	public void testParseSecondCoursesTuesdaySalex() throws IOException {
 
 		Document doc = readWebpage("BPBCVAMenu.htm");
 		MensaBpbParser parser = new MensaBpbParserImpl();
@@ -140,8 +133,7 @@ public class MensaBpbParserTest {
 	}
 	
 	@Test
-	public void testParseSideDishesThursdaySalex() throws IOException,
-			MenuParseException {
+	public void testParseSideDishesThursdaySalex() throws IOException {
 
 		Document doc = readWebpage("BPBCVAMenu.htm");
 		MensaBpbParser parser = new MensaBpbParserImpl();
@@ -156,8 +148,7 @@ public class MensaBpbParserTest {
 	}
 	
 	@Test
-	public void testParseSpecialDishesFridaySalex() throws IOException,
-			MenuParseException {
+	public void testParseSpecialDishesFridaySalex() throws IOException {
 
 		Document doc = readWebpage("BPBCVAMenu.htm");
 		MensaBpbParser parser = new MensaBpbParserImpl();
