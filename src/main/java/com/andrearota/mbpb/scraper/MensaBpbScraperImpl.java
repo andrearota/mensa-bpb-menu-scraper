@@ -1,4 +1,4 @@
-package com.andrearota;
+package com.andrearota.mbpb.scraper;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -7,11 +7,11 @@ import java.util.Properties;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
-import com.andrearota.dto.Canteen;
-import com.andrearota.dto.WeeklyMenu;
-import com.andrearota.parser.MensaBpbParser;
-import com.andrearota.parser.MensaBpbParserImpl;
-import com.andrearota.utils.ConfigUtils;
+import com.andrearota.mbpb.domain.Canteen;
+import com.andrearota.mbpb.domain.WeeklyMenu;
+import com.andrearota.mbpb.parser.MensaBpbParser;
+import com.andrearota.mbpb.parser.MensaBpbParserImpl;
+import com.andrearota.mbpb.utils.ConfigUtils;
 
 public class MensaBpbScraperImpl implements MensaBpbScraper {
 

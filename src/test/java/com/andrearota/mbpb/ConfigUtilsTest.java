@@ -1,9 +1,9 @@
-package com.andrearota;
+package com.andrearota.mbpb;
 
 import org.junit.Test;
 
-import com.andrearota.dto.Canteen;
-import com.andrearota.utils.ConfigUtils;
+import com.andrearota.mbpb.domain.Canteen;
+import com.andrearota.mbpb.utils.ConfigUtils;
 
 import static org.junit.Assert.*;
 

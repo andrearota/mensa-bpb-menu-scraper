@@ -1,4 +1,4 @@
-package com.andrearota.dto;
+package com.andrearota.mbpb.domain;
 
 public enum Course {
 	

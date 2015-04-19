@@ -1,6 +1,6 @@
-package com.andrearota.utils;
+package com.andrearota.mbpb.utils;
 
-import com.andrearota.dto.Canteen;
+import com.andrearota.mbpb.domain.Canteen;
 
 public class ConfigUtils {
 	

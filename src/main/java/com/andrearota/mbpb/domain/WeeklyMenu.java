@@ -1,4 +1,4 @@
-package com.andrearota.dto;
+package com.andrearota.mbpb.domain;
 
 import java.util.Calendar;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.andrearota.dto;
+package com.andrearota.mbpb.domain;
 
 /**
  * A very simple implementation of the days of the week enumeration.

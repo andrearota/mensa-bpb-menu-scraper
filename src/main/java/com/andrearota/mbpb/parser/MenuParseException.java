@@ -1,4 +1,4 @@
-package com.andrearota.parser;
+package com.andrearota.mbpb.parser;
 
 public class MenuParseException extends Exception {
 

@@ -1,11 +1,11 @@
-package com.andrearota.utils;
+package com.andrearota.mbpb.utils;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-import com.andrearota.dto.Course;
-import com.andrearota.dto.WorkWeekDay;
+import com.andrearota.mbpb.domain.Course;
+import com.andrearota.mbpb.domain.WorkWeekDay;
 
 public class SelectorFactory {
 	

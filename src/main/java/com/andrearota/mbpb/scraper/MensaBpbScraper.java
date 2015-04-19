@@ -1,9 +1,9 @@
-package com.andrearota;
+package com.andrearota.mbpb.scraper;
 
 import java.io.IOException;
 
-import com.andrearota.dto.Canteen;
-import com.andrearota.dto.WeeklyMenu;
+import com.andrearota.mbpb.domain.Canteen;
+import com.andrearota.mbpb.domain.WeeklyMenu;
 
 public interface MensaBpbScraper {
 

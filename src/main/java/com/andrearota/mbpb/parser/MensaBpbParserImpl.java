@@ -1,4 +1,4 @@
-package com.andrearota.parser;
+package com.andrearota.mbpb.parser;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -10,11 +10,11 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import com.andrearota.dto.Course;
-import com.andrearota.dto.DailyMenu;
-import com.andrearota.dto.WeeklyMenu;
-import com.andrearota.dto.WorkWeekDay;
-import com.andrearota.utils.SelectorFactory;
+import com.andrearota.mbpb.domain.Course;
+import com.andrearota.mbpb.domain.DailyMenu;
+import com.andrearota.mbpb.domain.WeeklyMenu;
+import com.andrearota.mbpb.domain.WorkWeekDay;
+import com.andrearota.mbpb.utils.SelectorFactory;
 
 public class MensaBpbParserImpl implements MensaBpbParser {
 

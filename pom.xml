@@ -2,22 +2,15 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.andrearota</groupId>
-	<artifactId>mensa-bpb-parser</artifactId>
+	<artifactId>mensa-bpb-menu-scraper</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0-SNAPSHOT</version>
-	<name>mensa-bpb-parser</name>
-	<url>http://maven.apache.org</url>
+	<version>1.0</version>
+	<url>http://www.andrearota.com</url>
 	<dependencies>
 		<dependency>
 			<groupId>org.jsoup</groupId>
 			<artifactId>jsoup</artifactId>
 			<version>1.8.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.antlr</groupId>
-			<artifactId>ST4</artifactId>
-			<version>4.0.8</version>
-			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
@@ -26,4 +19,5 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<name>Mensa BPB Menu Scraper</name>
 </project>

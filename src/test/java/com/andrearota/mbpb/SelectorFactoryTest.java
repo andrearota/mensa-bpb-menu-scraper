@@ -1,4 +1,4 @@
-package com.andrearota;
+package com.andrearota.mbpb;
 
 import java.io.IOException;
 
@@ -7,9 +7,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-import com.andrearota.dto.Course;
-import com.andrearota.dto.WorkWeekDay;
-import com.andrearota.utils.SelectorFactory;
+import com.andrearota.mbpb.domain.Course;
+import com.andrearota.mbpb.domain.WorkWeekDay;
+import com.andrearota.mbpb.utils.SelectorFactory;
 
 public class SelectorFactoryTest {
 

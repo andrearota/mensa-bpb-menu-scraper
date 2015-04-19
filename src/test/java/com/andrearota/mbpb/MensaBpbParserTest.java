@@ -1,4 +1,4 @@
-package com.andrearota;
+package com.andrearota.mbpb;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -11,11 +11,11 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.junit.Test;
 
-import com.andrearota.dto.WeeklyMenu;
-import com.andrearota.dto.WorkWeekDay;
-import com.andrearota.parser.MensaBpbParser;
-import com.andrearota.parser.MensaBpbParserImpl;
-import com.andrearota.parser.MenuParseException;
+import com.andrearota.mbpb.domain.WeeklyMenu;
+import com.andrearota.mbpb.domain.WorkWeekDay;
+import com.andrearota.mbpb.parser.MensaBpbParser;
+import com.andrearota.mbpb.parser.MensaBpbParserImpl;
+import com.andrearota.mbpb.parser.MenuParseException;
 
 public class MensaBpbParserTest {
 
